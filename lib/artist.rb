@@ -9,7 +9,7 @@ class Artist
   end
 
   def name=(name)
-    @name = name  
+    @name = name
   end
 
   def add_song(song)
