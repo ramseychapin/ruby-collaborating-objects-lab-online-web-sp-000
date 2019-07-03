@@ -10,7 +10,7 @@ class Song
     parse filenames
     create song
     song - artist name
-    
+    return song
 
   end
 
