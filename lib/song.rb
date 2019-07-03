@@ -10,7 +10,7 @@ class Song
     song_split = file.chomp(".mp3").split(" - ")
     new_Song = Song.new(song_split[1])
     new_Song.artist_name = song_split[0]
-    self
+    new_Song
   end
 
 
