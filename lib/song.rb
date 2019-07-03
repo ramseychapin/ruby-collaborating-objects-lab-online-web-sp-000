@@ -7,6 +7,9 @@ class Song
   end
 
   def self.new_by_filename(file)
+    parse filenames
+    create song
+    song - artist name
     
 
   end
