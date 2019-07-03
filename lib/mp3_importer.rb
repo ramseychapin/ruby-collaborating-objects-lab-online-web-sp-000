@@ -12,7 +12,7 @@ class MP3Importer
 
 
   def import
-    self.files.each { |file| Song.new_by_filename(file)}
+    self.files { |file| Song.new_by_filename(file)}
   end
 
 end
