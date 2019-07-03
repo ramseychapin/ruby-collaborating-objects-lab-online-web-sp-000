@@ -11,11 +11,6 @@ class Song
     self.Song.new(song_split[1])
     self.artist_name = song_split[0]
 
-    parse filenames
-    create song
-    song - artist name
-    return song
-
   end
 
 
