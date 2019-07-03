@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    Dir[@path+"/*.mp3"].map { |file| file.split("/").last }
+    #Dir[@path+"/*.mp3"].map { |file| file.split("/").last }
     Dir.entries(@path).reject { |file| file == "." || file == ".."}
   end
 
